@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.ProfileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="7dp"
+                >
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/edt_name"
+                    android:fontFamily="@font/bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Name"
+                    android:textSize="15sp"
+                    android:drawableRight="@drawable/user_et"
+                    android:drawableTint="@color/gray"
+                    />
+            </com.google.android.material.textfield.TextInputLayout><com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_mobile"
+                android:fontFamily="@font/bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:textSize="15sp"
+                android:drawableRight="@drawable/phone"
+                android:drawableTint="@color/gray"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_email"
+                android:fontFamily="@font/bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Address"
+                android:textSize="15sp"
+                android:drawableRight="@drawable/mail"
+                android:drawableTint="@color/gray"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+  <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_pincode"
+                android:fontFamily="@font/bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="PinCode"
+                android:textSize="15sp"
+                android:inputType="number"
+                android:maxLength="6"
+                android:drawableRight="@drawable/pincode"
+                android:drawableTint="@color/gray"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+  <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="7dp"
+            >
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_address"
+                android:fontFamily="@font/bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Address"
+                android:textSize="15sp"
+                android:drawableRight="@drawable/address"
+                android:drawableTint="@color/gray"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:text="@string/update"
+                android:textColor="@color/white"
+                android:layout_margin="20dp"
+                android:textAllCaps="false"
+                android:background="@drawable/login_button"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

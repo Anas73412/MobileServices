@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">MobileServices User</string>
+    <string name="name">MobileAllience</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sales Assocites Name</string>
+    <string name="nav_header_subtitle">retailer123@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="password_not_same">Confirm Password and New Password not same.</string>
+    <string name="password_length">Minimum 6 characters allow</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_activation">Activation</string>
+    <string name="menu_history">Order History</string>
+    <string name="menu_barcode">Barcode Details</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_terms">Terms and Conditions</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_password">Change Password</string>
+    <string name="menu_logout">Logout</string>
+    <string name="update">Update</string>
+    <string name="update_password">Update Password</string>
+
+    //Validations
+    <string name="mobile_required">Enter Mobile Number</string>
+    <string name="email_required">Enter Email Address</string>
+    <string name="name_required">Enter Name</string>
+    <string name="picode_required">Enter PIN code</string>
+    <string name="address_required">Enter Address</string>
+    <string name="invalid_mobile">Invalid Mobile Number</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_pincode">Invalid PIN Code</string>
+    <string name="con_pass_required">Enter Confirm Password</string>
+    <string name="old_pass_required">Enter Current Password</string>
+    <string name="new_pass_required">Enter New Password</string>
+    <string name="password_matched">Password and Confrim Password must be matched.</string>
+    <string name="msg_required">Required</string>
+    <string name="msg_length">More than 10 letters allow</string>
+    <string name="sale_code_reuired">Enter Code</string>
+    <string name="imei_reuired">Enter IMEI number</string>
+    <string name="brand_required">Enter Brand/Mobile name</string>
+    <string name="model_required">Enter Model name/number</string>
+    <string name="problems_required">Enter Address</string>
+    <string name="city_required">Enter City</string>
+
+    //Fragments title
+    <string name="title_contact">Contact Us</string>
+    <string name="title_privacy">Privacy Policy</string>
+    <string name="title_terms">Terms and Conditions</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_password">Update Password</string>
+    <string name="title_order_history">Order History</string>
+    <string name="title_enquiry">Enquiry</string>
+    <string name="title_details">Barcode Details</string>
+    <string name="title_renew">Renew Barcode</string>
+
+    //text
+    <string name="text_send">Send Now!</string>
+    <string name="text_question">Any question or query?</string>
+    <string name="btn_scan">Scan Barcode</string>
+    <string name="btn_activate">Activate</string>
+    <string name="txt_scanned">Scanned Successfully!</string>
+    <string name="txt_barcode_details">My Barcode Details.</string>
+    <string name="txt_about_us">About Us</string>
+    <string name="txt_activate">Activate Now!</string>
+    <string name="txt_renew">Renew Now!</string>
+    <string name="txt_imei">IMEI Number </string>
+    <string name="txt_brand">Mobile/Brand Name </string>
+    <string name="txt_model">Model Name/Number </string>
+    <string name="txt_problems">Problems in Mobile </string>
+    <string name="txt_instructions">Instructions </string>
+    <string name="txt_mobile_details">Mobile Details..</string>
+    <string name="txt_pick_details">Pick Details..</string>
+    <string name="txt_order_details">Order Details..</string>
+    <string name="txt_pincode">PIN Code</string>
+    <string name="txt_address">Address</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_city">City</string>
+    <string name="tv_thanks_order">Track Order</string>
+    <string name="tv_thanks_home">Home</string>
+    <string name="thank_you">Thank You</string>
+    <string name="my_order" translatable="false">My Order</string>
+    <string name="pending" translatable="false">Order Placed</string>
+    <string name="confirm" translatable="false">Confirmed</string>
+    <string name="delivered" translatable="false">Delivered</string>
+    <string name="outfordeliverd" translatable="false">Out for Delivered\nReady to pickup</string>
+    <string name="past" translatable="false">Past Orders</string>
+    <string name="cancel_order" translatable="false">Cancelled Orders</string>
+    <string name="txt_order_id">Order ID </string>
+    <string name="txt_order_date">Order Date </string>
+    <string name="txt_brand_name">Brand </string>
+    <string name="txt_model_name">Model </string>
+    <string name="txt_imei_no">IMEI No </string>
+    <string name="btn_cancel_order">Cancel Order</string>
+    <string name="track_sumitted_to">Submitted at Service center</string>
+    <string name="feedback_required">Enter reason for cancellation</string>
+    <string name="feedback_minimum">Minimum 20 characters allow</string>
+    <string name="txt_reason">Reason to Cancel</string>
+    <string name="st_pending">Pending</string>
+    <string name="st_confirm">Confirmed</string>
+    <string name="st_pick">Picked by delivery boy</string>
+    <string name="st_submit">Submitted at Service center</string>
+    <string name="st_cancel">Cancelled</string>
+    <string name="st_delivered">Delivered</string>
+    <string name="txt_sale_code">Sale Code </string>
+    <string name="txt_activation_date">Activation Date </string>
+    <string name="txt_expire_date">Expiry Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

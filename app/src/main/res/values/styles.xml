@@ -1,0 +1,31 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/left_color</item>
+        <item name="colorPrimaryDark">@color/right_color</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="RobotoBoldTextAppearance">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">@dimen/text_size_large</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"  />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"
+        >
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="TextWhiteRegular" parent="@android:style/TextAppearance.Widget.TextView">
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+</resources>

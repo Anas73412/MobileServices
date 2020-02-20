@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/group_home"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/dashboard"
+            android:title="@string/menu_home" />
+    </group>
+
+    <group
+        android:id="@+id/group_profile"
+        android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/edit_profile"
+            android:title="@string/menu_profile" />
+    </group>
+
+    <group
+        android:id="@+id/group_history"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_history"
+            android:icon="@drawable/activation"
+            android:title="@string/menu_history" />
+    </group>
+
+    <group
+        android:id="@+id/group_barcode"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_barcode"
+            android:icon="@drawable/activation"
+            android:title="@string/menu_barcode" />
+    </group>
+    <group
+        android:id="@+id/group_contact"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/activation"
+            android:title="@string/menu_contact" />
+    </group>
+    <group
+        android:id="@+id/group_terms"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/activation"
+            android:title="@string/menu_terms" />
+    </group>
+    <group
+        android:id="@+id/group_privacy"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/activation"
+            android:title="@string/menu_privacy" />
+    </group>
+    <group
+        android:id="@+id/group_password"
+        android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/nav_password"
+            android:icon="@drawable/password"
+            android:title="@string/menu_password" />
+    </group>
+<group
+        android:id="@+id/group_logout"
+        android:checkableBehavior="single">
+
+    <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/logout"
+            android:title="@string/menu_logout" />
+    </group>
+
+
+</menu>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31A8FF</color>
+    <color name="colorPrimaryDark">#31A8FF</color>
+    <color name="colorAccent">#2CCEFF</color>
+    <color name="textColor">#E7962D</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#ECECEC</color>
+    <color name="black">#000000</color>
+    <color name="dark_black">#000000</color>
+    <color name="dark_gray">#686868</color>
+    <color name="color_1">#1bdc84</color>
+    <color name="color_2">#1b4ddc</color>
+    <color name="color_3">#ff0023</color>
+    <color name="orange">#ffbb00</color>
+    <color name="yelow">#ffee05</color>
+    <color name="purple">#ed0bc0</color>
+
+    <color name="green">#4caf50</color>
+    <color name="light_gray">#faf5f5</color>
+    <color name="contact_name">#333333</color>
+    <color name="contact_number">#8D8C8C8C</color>
+    <color name="contact">#A09F9F</color>
+    <color name="all">#f2f3f4</color>
+    <color name="tot">#2E7731</color>
+    <color name="left_color">#2CCEFF</color>
+    <color name="right_color">#31A8FF</color>
+    <color name="cancel_pick">#FF5576</color>
+    <color name="color_cancel">#e84b3a</color>
+    <color name="color_submit">#ffbb00</color>
+    <color name="color_delivered">#4caf50</color>
+
+
+</resources>
